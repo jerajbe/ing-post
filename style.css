@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+.post {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+.user h5, p{
+    margin: 0;
+}
+.foto img {
+    width: 500px;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botonesIzq, .botonesDer {
+padding: 10px;
+}
+.quote p {
+    padding: 10px;
+}
